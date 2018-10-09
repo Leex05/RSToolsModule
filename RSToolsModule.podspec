@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RSToolsModule'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of RSToolsModule.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'RSToolsModule/Classes/**/*'
+s.source_files = 'RSToolsModule/Classes/**/*{h,m}'
   
   # s.resource_bundles = {
   #   'RSToolsModule' => ['RSToolsModule/Assets/*.png']
@@ -38,5 +38,16 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+s.dependency 'AFNetworking'
+s.dependency 'MBProgressHUD'
+s.dependency 'SDWebImage'
+ # s.dependency 'SDCycleScrollView'
+s.dependency 'IQKeyboardManager'
+s.dependency 'MJRefresh'
+s.dependency 'Masonry'
+s.dependency 'ReactiveObjC'
+s.dependency 'SGQRCode','~> 2.1.8'
+s.dependency 'YYModel'
+s.dependency 'SAMKeychain'
+s.dependency 'SVProgressHUD'
 end

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RSToolsModule_Example' do
+  pod 'RSToolsModule', :path => '../'
+
+  target 'RSToolsModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

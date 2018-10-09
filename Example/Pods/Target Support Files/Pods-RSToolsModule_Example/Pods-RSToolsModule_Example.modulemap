@@ -1,0 +1,6 @@
+framework module Pods_RSToolsModule_Example {
+  umbrella header "Pods-RSToolsModule_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

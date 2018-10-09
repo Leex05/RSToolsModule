@@ -1,0 +1,57 @@
+{
+  "name": "RSToolsModule",
+  "version": "0.1.0",
+  "summary": "A short description of RSToolsModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Leex05/RSToolsModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Leex05": "leixiao@kaituocn.com"
+  },
+  "source": {
+    "git": "https://github.com/Leex05/RSToolsModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RSToolsModule/Classes/**/*{h,m}",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ReactiveObjC": [
+
+    ],
+    "SGQRCode": [
+      "~> 2.1.8"
+    ],
+    "YYModel": [
+
+    ],
+    "SAMKeychain": [
+
+    ],
+    "SVProgressHUD": [
+
+    ]
+  }
+}
